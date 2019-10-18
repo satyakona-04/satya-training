@@ -1,0 +1,19 @@
+See, we have this crazy, thrill-seeking goal to climb from a small company
+ that has quadrupled in size in just four years to one of the top 5 most-visited
+ custom design t-shirt and apparel sites. And we aspire to reach our traffic target in the next year.
+
+Our e-commerce model lets shoppers design and upload their own t-shirt art for
+ imprinting, and have the finished product shipped to their doorstep in a few days. 
+ We’ve been successful beyond our wildest projections and now need to move our existing legacy 
+datacenter to the cloud to handle an avalanche of orders.
+
+You could be the one to take us to the top. We need a DevOps engineer with strong Amazon 
+Web Services experience. You will create cloud formation templates to build AWS services
+ that support our custom Java application. You’ll need to build the whole stack ELBs to 
+ databases, and then move and launch our site at its new home. And you’ll need to help guide
+ us through this process in a pretty short outage window.
+
+In this role, you’ll work collaboratively with software engineering to deploy and operate
+our systems. Help automate and streamline our operations and processes. Build and maintain 
+tools for deployment, monitoring and operations. And troubleshoot and resolve issues in our dev, 
+test and production environments.
