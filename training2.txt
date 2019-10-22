@@ -1,25 +1,24 @@
-GNU make, a widely used make implementation with a large set of extensions
-make, a classic Unix build tool
-mk, developed originally for Version 10 Unix and Plan 9, and ported to Unix as part of plan9port
-MPW Make, developed for the classic Mac OS and similar to but not compatible with Unix make; the modern macOS (OS X) comes with both GNU make and BSD make; available as part of Macintosh Programmer's Workshop as a free, unsupported download from Apple
-nmake
-PVCS-make, basically follows the concept of make but with a noticeable set of unique syntax features[1]
-Make-incompatible
-Apache Ant, popular for Java platform development and uses an XML file format
-Apache Buildr, open-source build system, Rake-based, gives the full power of scripting in Ruby with integral support for most abilities wanted in a build system
-Apache Maven, a Java platform tool for dependency management and automated software build
-ASDF LISP build system for building LISP projects
-A-A-P, a Python-based build tool
-Bazel, Google's own build tool, now publicly available in Beta. Java-based.
-Bloop, a Scala/Java build server that only supports compiling, testing, running and debugging code. it focuses on speed and good integration with other build tools.
-BitBake, a Python-based tool with the special focus of distributions and packages for embedded Linux cross-compilation
-Boot, a Java build and dependency management tool written in Clojure
-boost.build For C++ projects, cross-platform, based on it Perforce Jam.
-Buck, a build system developed and used by Facebook
-Buildout, a Python-based build system for creating, assembling and deploying applications from multiple parts
-Cabal, a common architecture for building applications and libraries in the programming language Haskell
-FinalBuilder, for Windows software developers. FinalBuilder provides a graphical IDE to both create and run build projects in a single application. The final builder also includes the ability the execute the unit test, deploy web projects or install and test applications.
-Flowtracer
-Gradle, an open-source build and automation system with an Apache Groovy-based domain specific language (DSL), combining features of Apache Ant and Apache Maven with additional features like a reliable incremental build
-Grunt, a build tool for front-end web development
-Gulp, another build tool for front-end
+    public static void main(String[] args) {
+        int r1 = 2, c1 = 3;
+        int r2 = 3, c2 = 2;
+        int[][] firstMatrix = { {3, -2, 5}, {3, 0, 4} };
+        int[][] secondMatrix = { {2, 3}, {-9, 0}, {0, 4} };
+        // Mutliplying Two matrices
+        int[][] product = new int[r1][c2];
+        for(int i = 0; i < r1; i++) {
+            for (int j = 0; j < c2; j++) {
+                for (int k = 0; k < c1; k++) {
+                    product[i][j] += firstMatrix[i][k] * secondMatrix[k][j];
+                }
+            }
+        }
+        // Displaying the result
+        System.out.println("Sum of two matrices is: ");
+        for(int[] row : product) {
+            for (int column : row) {
+                System.out.print(column + "    ");
+            }
+            System.out.println();
+        }
+    }
+}
