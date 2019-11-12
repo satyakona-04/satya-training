@@ -30,12 +30,7 @@ public class JavaArraySort {
         return arr;
     }
 }
-There are many sorting algorithms, bubble sort is easier to implement.
-Sorting is complex and you should rely on Java API methods for sorting a collection or array for better performance that inventing the wheel again.
-Also mention the use of Comparable and Comparator in sorting will add bonus points for you.
-Read 3 input Strings, concat and print
 
-package com.journaldev.javaprograms;
 
 import java.util.Scanner;
 
@@ -64,13 +59,7 @@ public class ReadStringAndConcat {
 	}
 
 }
-Program is flexible to concat any number of strings, that shows thinking to code reuse and keeping it flexible.
-Proper messages to guide the user when someone runs the program.
-Use of StringBuilder rather than String + operator for concatenation.
-Closing resources as soon as we are done with it, hence avoiding memory leak. Shows good programming habits.
-Remove odd numbers from integer array
 
-package com.journaldev.javaprograms;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -109,9 +98,7 @@ public class RemoveOddNumbers {
 	}
 
 }
-If you are reading this code, you should see that it adheres to all the points mentioned above. Try to write clean and simple code, follow best practices, naming conventions for methods and variables and you will be good.
 
-Delete all matching elements from a list
 
 package com.journaldev.javaprograms;
 
@@ -149,10 +136,7 @@ public class DeleteFromList {
 	}
 
 }
-Notice the removeAll method is created for list of objects, so it will work with any type of list. This is how we write reusable code.
-Using iterator to remove the element from the list.
-Trimming the input to remove any accidental white spaces from input strings.
-Average of numbers with rounding half-up and scale 2
+e 2
 
 package com.journaldev.javaprograms;
 
